@@ -3,11 +3,15 @@
     font-weight: 400;
     font-style: normal;
   }
-
+  *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
   body{
     width: 100%;
     height: 100vh;
-    background: #000;
+    background: #474343;
     font-family: "Rajdhani", serif;
     display: flex;
     align-items: center;
@@ -29,8 +33,8 @@ header ::before{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('src/media/cinema.jpg') no-repeat center center/cover;
-    opacity: .9;
+    background: url('media/cim.jpg')no-repeat center center/cover;
+    opacity: .6;
     z-index: -1;
 }
 
@@ -40,6 +44,6 @@ header ::after{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, transparent, #000);
+    background: linear-gradient(100deg, transparent, #000);
     z-index: -1;
 }
